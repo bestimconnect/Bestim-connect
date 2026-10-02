@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "Bestim Connect: every company vehicle in one dashboard",
+    "description": "Drivers log maintenance by voice in the app, and you follow every vehicle, its cost and its next service from one dashboard."
+  },
+  "nav": {
+    "product": "Features",
+    "how": "How it works",
+    "workshops": "For workshops",
+    "faq": "FAQ",
+    "demo": "Book a demo",
+    "home": "Bestim Connect, home page"
+  },
+  "hero": {
+    "eyebrow": "For shipping companies, factories and every fleet",
+    "title1": "Every company vehicle.",
+    "title2": "One dashboard.",
+    "body": "Drivers log maintenance by voice in seconds, and you see every vehicle: its condition, its cost and its next service.",
+    "cta": "Book a demo",
+    "secondary": "See how it works",
+    "whatsapp": "Chat on WhatsApp",
+    "alertTitle": "3 vehicles due this week",
+    "alertSub": "Drivers have been notified",
+    "savedTitle": "Oil change logged",
+    "savedSub": "Truck 12 · Mahmoud",
+    "phoneAlt": "The review screen for a maintenance record in the Bestim app"
+  },
+  "dash": {
+    "alt": "The Bestim Connect dashboard: a fleet overview with each vehicle's status and cost",
+    "title": "Fleet overview",
+    "period": "October 2026",
+    "stats": [
+      { "value": "48", "label": "Vehicles" },
+      { "value": "6", "label": "Due soon" },
+      { "value": "2", "label": "Overdue" },
+      { "value": "86,400", "label": "This month (EGP)" }
+    ],
+    "columns": {
+      "vehicle": "Vehicle",
+      "driver": "Driver",
+      "odometer": "Odometer",
+      "next": "Next service",
+      "status": "Status"
+    },
+    "rows": [
+      { "vehicle": "Truck 12", "driver": "Mahmoud", "odometer": "134,550 km", "next": "Engine oil · in 450 km" },
+      { "vehicle": "Van 04", "driver": "Karim", "odometer": "88,210 km", "next": "Air filter · in 2,300 km" },
+      { "vehicle": "Truck 07", "driver": "Sayed", "odometer": "201,900 km", "next": "Brake pads · 800 km overdue" },
+      { "vehicle": "Forklift 02", "driver": "Hany", "odometer": "3,120 hours", "next": "Hydraulic oil · in 40 hours" }
+    ],
+    "status": {
+      "ok": "Healthy",
+      "soon": "Due soon",
+      "overdue": "Overdue"
+    },
+    "costTitle": "Cost per month"
+  },
+  "strip": [
+    "Shipping companies",
+    "Factories",
+    "Distribution",
+    "Construction equipment",
+    "Car rental",
+    "Field service"
+  ],
+  "problems": {
+    "eyebrow": "The problem",
+    "title1": "Running a fleet on paper and spreadsheets",
+    "title2": "costs more than you think.",
+    "items": [
+      {
+        "title": "Scattered records",
+        "body": "Receipts in a drawer, a spreadsheet with every supervisor, and details only the driver knows."
+      },
+      {
+        "title": "Missed services become breakdowns",
+        "body": "A late oil change today is a breakdown on the road tomorrow, and a delivery that arrives late."
+      },
+      {
+        "title": "No idea what each vehicle costs",
+        "body": "Which vehicle costs the most? Which one is it time to sell? The answer needs numbers."
+      }
+    ]
+  },
+  "sides": {
+    "eyebrow": "The solution",
+    "title1": "An app for the driver,",
+    "title2": "a dashboard for the office.",
+    "driver": {
+      "tag": "For the driver",
+      "title": "Logged in seconds, by voice",
+      "points": [
+        "They say what they did the way they'd tell a colleague, and the app sorts out the service, odometer and cost",
+        "They photograph the receipt and attach it to the record",
+        "Works offline, and uploads the record when the connection is back"
+      ],
+      "alt": "The voice logging screen in the Bestim app"
+    },
+    "manager": {
+      "tag": "For the office",
+      "title": "The whole fleet in front of you",
+      "points": [
+        "Every vehicle's condition and next service",
+        "The cost of each vehicle, month by month",
+        "An alert ahead of time, for you and the driver"
+      ]
+    }
+  },
+  "steps": {
+    "eyebrow": "How it works",
+    "title1": "Three steps,",
+    "title2": "and your fleet is under control.",
+    "stepLabel": "Step",
+    "items": [
+      {
+        "title": "Add your vehicles and invite drivers",
+        "body": "We help you enter the vehicles, and every driver gets an invite on their phone."
+      },
+      {
+        "title": "Drivers log in seconds",
+        "body": "After each service they say it or type it, and attach a photo of the receipt."
+      },
+      {
+        "title": "You see everything",
+        "body": "Records, costs and alerts show up in your dashboard as they happen."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Features",
+    "title1": "Everything your fleet needs,",
+    "title2": "with no hardware to install.",
+    "fleet": {
+      "title": "The whole fleet on one screen",
+      "body": "Vehicles, drivers, odometers and the next service, in one clear table."
+    },
+    "cost": {
+      "title": "The cost of every vehicle",
+      "body": "A clear total and monthly bars, so you know where the maintenance budget goes.",
+      "totalLabel": "Fleet cost 2026",
+      "currency": "Egyptian pounds"
+    },
+    "reminders": {
+      "title": "Alerts for the entire fleet",
+      "body": "Vehicles that need your attention show up first.",
+      "items": [
+        { "name": "Truck 07 · Brake pads", "sub": "800 km overdue" },
+        { "name": "Truck 12 · Engine oil", "sub": "450 km left" },
+        { "name": "Van 04 · Air filter", "sub": "2,300 km left" }
+      ]
+    },
+    "trust": {
+      "title": "Records you can trust",
+      "body": "When a record is edited the original stays saved with the correction beside it, and odometer readings that don't add up are flagged for review.",
+      "original": "Original",
+      "corrected": "Correction",
+      "flag": "Odometer reading needs review"
+    },
+    "receipts": {
+      "title": "The receipt stays with the record",
+      "body": "A photo of every receipt is kept next to the service it paid for."
+    },
+    "reports": {
+      "title": "Reports, ready to go",
+      "body": "Export any vehicle's history as PDF or CSV, for accounting or when you sell."
+    },
+    "units": {
+      "title": "By kilometers or operating hours",
+      "body": "Cars, trucks, motorcycles and equipment, all in one account."
+    }
+  },
+  "facts": [
+    { "value": 18, "label": "service types ready to log" },
+    { "value": 2, "label": "languages: Arabic and English" },
+    { "value": 3, "label": "export formats: PDF, CSV and JSON" },
+    { "value": 0, "label": "devices to install in the vehicle" }
+  ],
+  "workshops": {
+    "eyebrow": "For workshops and service centers",
+    "title1": "Run a workshop?",
+    "title2": "Put your name on your work.",
+    "body": "Log the service on your customer's car and it appears in the car's history, verified by your workshop. Your customer trusts you more, and comes back.",
+    "points": [
+      "The service is verified in your workshop's name",
+      "It shows in the car's history inside the customer's app",
+      "A verified history reassures the buyer at sale time"
+    ],
+    "cta": "Book a demo for your workshop"
+  },
+  "faq": {
+    "title1": "Questions",
+    "title2": "companies ask",
+    "items": [
+      {
+        "q": "Do we need to install devices in the vehicles?",
+        "a": "No. Bestim Connect runs from an app on the driver's phone and a dashboard in your browser. No hardware, no installation."
+      },
+      {
+        "q": "Do drivers need training?",
+        "a": "No. The driver says what they did in their own words, and the app sorts out the details and shows them for review before saving."
+      },
+      {
+        "q": "Which vehicles are supported?",
+        "a": "Cars, trucks, motorcycles and equipment. Tracked by kilometers or by operating hours."
+      },
+      {
+        "q": "Is our company's data private?",
+        "a": "Yes. Your fleet's data is seen only by the people you give access to inside your company."
+      },
+      {
+        "q": "Can we export our data?",
+        "a": "Yes. Export any vehicle's history as PDF, CSV or JSON at any time."
+      },
+      {
+        "q": "How do we start?",
+        "a": "Book a demo with the form at the end of this page. We get in touch, show you the dashboard, and help you add your vehicles and drivers."
+      }
+    ]
+  },
+  "demo": {
+    "eyebrow": "Book a demo",
+    "title1": "See your fleet",
+    "title2": "in one dashboard.",
+    "body": "Leave your details and we'll get in touch to arrange a demo that fits the size of your fleet.",
+    "points": [
+      "A live demo that fits your business",
+      "We help you add your vehicles and drivers",
+      "No hardware, no installation"
+    ],
+    "name": "Name",
+    "company": "Company name",
+    "phone": "Phone number",
+    "fleetSize": "Number of vehicles",
+    "kind": "Type of business",
+    "kindFleet": "A company with vehicles",
+    "kindWorkshop": "A workshop or service center",
+    "note": "Notes (optional)",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "error": "We couldn't send it. Try again, or email us:",
+    "doneTitle": "We got your request",
+    "doneBody": "We'll be in touch soon to arrange the demo.",
+    "whatsapp": "Continue on WhatsApp",
+    "whatsappText": "Hello, I'd like a demo of Bestim Connect.",
+    "privacy": "By sending the request you agree to the",
+    "privacyLink": "privacy policy"
+  },
+  "footer": {
+    "tagline": "Bestim for business: every vehicle, every service, in one place.",
+    "product": "Product",
+    "more": "Bestim",
+    "consumer": "Bestim for individuals",
+    "privacy": "Privacy policy",
+    "terms": "Terms and conditions",
+    "contact": "Email us",
+    "rights": "All rights reserved"
+  }
+}

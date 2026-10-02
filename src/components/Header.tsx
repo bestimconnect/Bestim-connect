@@ -2,8 +2,10 @@ import Link from "next/link";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { ConnectLogo } from "./ConnectLogo";
 import { LangSwitch } from "./LangSwitch";
+import { StickyHeader } from "./Motion";
 
-// A dark glass bar: it belongs to the dark hero, and stays readable over the light sections.
+// At the top of the page the bar is bare and reads as part of the dark hero. Once the page
+// scrolls it becomes its own dark glass bar, which stays readable over the light sections.
 export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const links = [
     ["product", dict.nav.product],
@@ -12,8 +14,8 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
     ["faq", dict.nav.faq],
   ];
   return (
-    <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4">
-      <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 rounded-full border border-white/10 bg-night/75 ps-5 pe-2.5 text-paper shadow-float backdrop-blur-md md:ps-6">
+    <StickyHeader>
+      <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 rounded-full border border-transparent ps-5 pe-2.5 text-paper transition-[background-color,border-color,box-shadow,backdrop-filter] duration-300 group-data-scrolled:border-white/10 group-data-scrolled:bg-night/75 group-data-scrolled:shadow-float group-data-scrolled:backdrop-blur-md md:ps-6">
         <Link href={`/${lang}`} aria-label={dict.nav.home} className="shrink-0">
           <ConnectLogo inverse />
         </Link>
@@ -38,6 +40,6 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
           </Link>
         </div>
       </nav>
-    </header>
+    </StickyHeader>
   );
 }

@@ -9,9 +9,27 @@ import {
   useScroll,
   useTransform,
 } from "motion/react";
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 
 const ease = [0.22, 1, 0.36, 1] as const;
+
+// The fixed <header>. It carries `data-scrolled` once the page has moved, so the bar
+// inside can sit bare on the hero at the top and become its own floating bar after
+// (see the group-data-scrolled: classes in Header.tsx).
+export function StickyHeader({ children }: { children: ReactNode }) {
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll(); // the page can open already scrolled (a #section link, a reload)
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+  return (
+    <header data-scrolled={scrolled ? "" : undefined} className="group fixed inset-x-0 top-0 z-50 px-4 pt-4">
+      {children}
+    </header>
+  );
+}
 
 // Honors the visitor's "reduce motion" setting for every animation below.
 export function MotionProvider({ children }: { children: ReactNode }) {

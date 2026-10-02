@@ -43,9 +43,8 @@ Next.js 16 (App Router) + TypeScript + Tailwind v4, static pages for `/ar` and `
 Next.js changes between major versions: read `AGENTS.md` before writing code.
 
 ## Still to do
-- Push the `connect_leads` migration to the live database (the form shows its error message until then).
 - Business WhatsApp number; official Connect logo file.
 - An email alert when a demo request arrives (needs the custom email sender, see `../docs/BACKEND.md`).
-- GitHub repo, Vercel project and `bestim-connect.com` DNS.
+- Vercel project and `bestim-connect.com` DNS (the code is on GitHub: `bestimconnect/Bestim-connect`).
 - Social share image, Lighthouse pass.
 - The dashboard itself: open questions for the founder are in `../docs/IDEAS.md`.
